@@ -6,6 +6,8 @@ euclidian_dist <- function(u, v)
 
 nn <- function(data, u)
 {
+    # This function gets the data and a point and returns
+    # the class of the nearest one.
     row <- dim(data)[1]
     col <- dim(data)[2]
     min_dist <- Inf
